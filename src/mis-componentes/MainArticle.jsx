@@ -3,7 +3,7 @@ import imageDesktop from "../images/image-web-3-desktop.jpg";
 
 export const MainArticle = () => {
   return (
-    <section>
+    <section className="mb-12">
       <picture>
         <source media="(max-width:640px)" srcSet={imageMobile} />
         <source media="(min-width:641px)" srcSet={imageDesktop} />

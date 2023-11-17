@@ -10,8 +10,11 @@ function App() {
     px-4
     pt-6">
      <Header/>
-     <MainArticle/>
-     <NewContainer></NewContainer>
+     <div className="sm:flex sm:gap-8"> 
+        <MainArticle/>
+     <NewContainer/>
+     </div>
+   
     </main>
   )
 }
