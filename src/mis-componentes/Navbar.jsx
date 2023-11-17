@@ -5,7 +5,6 @@ export const Navbar = () => {
   return (
     <>
     <ul className="
-     bg-blue-400
      hidden sm:flex 
      text-[18px] 
      sm:w-[438px] 

@@ -1,5 +1,7 @@
 import { Header } from "./mis-componentes/header"
 import { MainArticle } from "./mis-componentes/MainArticle"
+import { NewContainer } from "./mis-componentes/NewContainer"
+
 
 function App() {
  
@@ -9,6 +11,7 @@ function App() {
     pt-6">
      <Header/>
      <MainArticle/>
+     <NewContainer></NewContainer>
     </main>
   )
 }
