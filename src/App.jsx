@@ -1,3 +1,4 @@
+import { ArticlesContainer } from "./mis-componentes/ArticlesContainer"
 import { Header } from "./mis-componentes/header"
 import { MainArticle } from "./mis-componentes/MainArticle"
 import { NewContainer } from "./mis-componentes/NewContainer"
@@ -14,6 +15,7 @@ function App() {
         <MainArticle/>
      <NewContainer/>
      </div>
+     <ArticlesContainer/>
    
     </main>
   )
