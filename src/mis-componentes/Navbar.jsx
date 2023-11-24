@@ -1,35 +1,36 @@
-import burgerMenu from '../images/icon-menu.svg'
-
+import burgerMenu from "../images/icon-menu.svg";
 
 export const Navbar = () => {
   return (
     <>
-    <ul className="
+      <ul
+        className="
      hidden sm:flex 
      text-[18px] 
      sm:w-[438px] 
      sm:place-content-around 
      sm:text-[16px] 
      sm:items-center
-     ">
-
-      <li>
-        <a href="">Home</a>
-      </li>
-      <li>
-        <a href="">New</a>
-      </li>
-      <li>
-        <a href="">Popular</a>
-      </li>
-      <li>
-        <a href="">Trending</a>
-      </li>
-      <li>
-        <a href="">Categories</a>
-      </li>
-    </ul>
-    <img className="
+     "
+      >
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">New</a>
+        </li>
+        <li>
+          <a href="">Popular</a>
+        </li>
+        <li>
+          <a href="">Trending</a>
+        </li>
+        <li>
+          <a href="">Categories</a>
+        </li>
+      </ul>
+      <img
+        className="
     w-7
     h-4
     cursor-pointer
@@ -37,8 +38,9 @@ export const Navbar = () => {
 
     
     "
-    src={burgerMenu} alt="" />
+        src={burgerMenu}
+        alt=""
+      />
     </>
   );
-
 };
